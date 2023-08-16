@@ -15,7 +15,7 @@ namespace IDGS903_Api.Controllers
         public ProductoController(AppDbContext context)
         {
             _context = context;
-        }
+        } 
 
         [HttpGet]
         public ActionResult Get()
