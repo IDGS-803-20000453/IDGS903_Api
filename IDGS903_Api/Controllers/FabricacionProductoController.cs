@@ -29,7 +29,7 @@ namespace IDGS903_Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        /*
         [HttpGet("getGAstoMateriaProducto")]
         public ActionResult Get2(int cantidadH)
         {
@@ -77,7 +77,7 @@ namespace IDGS903_Api.Controllers
                     var cantidadParam = new SqlParameter("@catidadresta", (gastoProducto.Cantidad * cantidadH));
 
                     _context.Database.ExecuteSqlRaw("EXEC restarmateria @idmateria, @catidadresta", idMateriaParam, cantidadParam);
-                }*/
+                }
 
                 //return Ok("Producto agregado correctamente");
             }
@@ -86,7 +86,7 @@ namespace IDGS903_Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+        */
 
 
 
