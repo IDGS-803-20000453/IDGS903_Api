@@ -1,4 +1,5 @@
 ﻿using IDGS903_Api.Models;
+using IDGS903_Api.Models.sinLlaves;
 using Microsoft.EntityFrameworkCore;
 
 namespace IDGS903_Api.Context
@@ -21,6 +22,8 @@ namespace IDGS903_Api.Context
         public DbSet<compras> compras { get; set; }
 
         public DbSet<Pedido> pedido { get; set; }
+
+        public DbSet<ObtencionGasto> obtenerGasto { get; set; }
 
         public DbSet<fabricacionProducto> fabricacionProducto { get; set; }
         
